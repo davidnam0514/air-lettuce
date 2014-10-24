@@ -21,7 +21,9 @@ require.config({
 });
 
 require([
-    'backbone'
-], function (Backbone) {
+    'backbone',
+    'routes/test'
+], function (Backbone, TestRouter) {
+    new TestRouter();
     Backbone.history.start();
 });
