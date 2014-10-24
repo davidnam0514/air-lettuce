@@ -23,28 +23,24 @@ define([
         },
 
         indexStart: function() {
-            var self = this;
             new TestIndexView({
-                el: self.bb_el
+                el: this.bb_el
             });
         },
 
         search: function() {
-            var self = this;
             new TestSearchView({
-                el: self.bb_el
+                el: this.bb_el
             });
         },
 
         addListing: function() {
-            var self = this;
             new TestAddListingView({
-                el: self.bb_el
+                el: this.bb_el
             });
         },
 
         checklist: function() {
-            var self = this;
             new TestChecklistView({
                 el: this.bb_el
             });
