@@ -4,7 +4,7 @@
     "appName": "AirLettuce",
     "coffee": false,
     "testFramework": "mocha",
-    "templateFramework": "lodash",
+    "templateFramework": "handlebars",
     "compassBootstrap": true,
     "includeRequireJS": true
   },
